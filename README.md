@@ -51,9 +51,11 @@ git clone https://github.com/tanishq-chopra1/ZypherAgent-.git
 
 ### 4. Make sure dependencies are added:
 
+```
 deno add jsr:@corespeed/zypher
-deno add jsr:@std/dotenv
 
+deno add jsr:@std/dotenv
+```
 ### 5. Run the Agent:
 
 deno run -A main.ts "Your_Question_here"
