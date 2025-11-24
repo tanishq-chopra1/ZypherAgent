@@ -45,9 +45,17 @@ git clone https://github.com/tanishq-chopra1/ZypherAgent-.git
 
 ### 1. Add your anthropic api key in .env file
 
-### 2. Install deno using https://docs.deno.com/runtime/getting_started/installation/
+### 2. Install deno using: 
 
-### 3. Verify deno installation: deno --version
+```
+https://docs.deno.com/runtime/getting_started/installation/
+```
+
+### 3. Verify deno installation: 
+
+```
+deno --version
+```
 
 ### 4. Make sure dependencies are added:
 
