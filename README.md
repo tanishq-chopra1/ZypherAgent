@@ -36,5 +36,25 @@ This project is my technical assessment submission for **CoreSpeed**.
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/<your-username>/zypher-code-navigator.git
-cd zypher-code-navigator
+git clone https://github.com/tanishq-chopra1/ZypherAgent-.git
+
+---
+
+## How to run
+
+### 1. Add your anthropic api key in .env file
+
+### 2. Install deno using https://docs.deno.com/runtime/getting_started/installation/
+
+### 3. Verify deno installation: deno --version
+
+### 4. Make sure dependencies are added:
+
+deno add jsr:@corespeed/zypher
+deno add jsr:@std/dotenv
+
+### 5. Run the Agent:
+
+deno run -A main.ts "Your_Question_here"
+
+---
